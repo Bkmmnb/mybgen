@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://media.licdn.com/dms/image/D5612AQE7DNx9oK2UaA/article-cover_image-shrink_720_1280/0/1699365344032?e=2147483647&v=beta&t=JbJ2VxhbOJvcz_IBWWrsNjjY2V4rKaNPUJOL0efAh14');
+            background-size: cover; /* Ensures the image covers the whole screen */
+            background-position: center; /* Centers the background image */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .text-section {
+            color: #800080;
+            font-size: 48px;
+            font-weight: bold;
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 80%;
+            margin-top: 50px;
+        }
+        .image-section {
+            position: relative;
+        }
+        .circuit {
+            width: 300px;
+            height: auto;
+        }
+        .info-box {
+            background: linear-gradient(to right, purple, orange);
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .button {
+            background-color: orange;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-section">
+        <p>Artificial Education</p>
+        <button class="button" onclick="window.location.href='https://example.com';">Learn More</button>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="path_to_your_image.png" alt="AI in Education" class="circuit">
+        </div>
+    </div>
+    <div class="info-box">
+        <p>Looking at How Artificial Intelligence in Education Can Help</p>
+    </div>
+</body>
+</html>
